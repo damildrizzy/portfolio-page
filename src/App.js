@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Nav from './components/nav';
+import Header from './components/header';
+import About from './components/about';
+import Project from './components/project';
+import jobs from './components/jobs';
+import Footer from './components/footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  constructor(props){
+    super(props)
+
+    this.state = {
+      jobs
+    }
+  }
+  render(){
+    const {jobs} = this.state;
+    return (
+      <div>
+        <Nav/>
+        <div className="container wrapper">
+          <Header/>
+          <About/>
+          <Project jobs = {jobs}/>
+          <Footer/>
+        
+        </div>
+        
+      </div>
+    );
+  }
+  
 }
 
 export default App;
