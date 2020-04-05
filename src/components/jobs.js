@@ -1,6 +1,8 @@
 import eth from "../img/jobs/eth.png";
 import networked from "../img/jobs/networked.png";
-import crypto from "../img/jobs/crypto.png"
+import crypto from "../img/jobs/crypto.png";
+import chat from "../img/jobs/chat.png";
+
 
 const jobs = [
     {
@@ -32,6 +34,17 @@ const jobs = [
         'tech': 'Python, Flask',
         'url': 'https://networked.ng/',
         'image': networked
+    },
+
+    {
+        'id': 4,
+        'name': 'Aproko',
+        'type': 'Chat App',
+        'description': "Aproko Is a Realtime Multiroom Chat Application",
+        'tech': 'Node.js, Express, Websockets, jQuery',
+        'url': 'https://aproko.herokuapp.com',
+        'image': chat
+
     }
 
 

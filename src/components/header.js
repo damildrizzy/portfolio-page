@@ -15,7 +15,7 @@ class Header extends Component{
                                     <h1 className="pt-5 display-4">Hi. I'm <span> Dami.</span></h1>
                                     <h4 className="">Web Developer</h4>
                                     <div className="align-items-center py-3">
-                                        <a className="btn btn-primary btn-lg" href="https://drive.google.com/open?id=1Hw3RLf4shSIZKlNHMVRkYPcsQdb6Ge6U" target="_blank" rel="noopener noreferrer"><span> Download CV</span></a>
+                                        <a className="btn btn-primary btn-lg" href="https://drive.google.com/open?id=1KNilXHSa3VkRC5G-K9KVXAgsXsuparQ4" target="_blank" rel="noopener noreferrer"><span> Download CV</span></a>
                                         
                                     </div>
                                 </div>
