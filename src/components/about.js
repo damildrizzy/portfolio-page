@@ -18,7 +18,7 @@ class About extends Component{
                                 
                             </p>
                             <p>
-                            I'm a 22 year old who happens to 
+                            I'm a 23 year old who happens to 
                                 spend a ton of time talking to a computer in a secret language. My favourite language? Python. Python is my first love and 
                                 sometimes, I go as far as calling myself a parselfinger (Catch my drift?).
                             </p>
