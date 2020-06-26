@@ -18,7 +18,7 @@ class Nav extends Component{
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" target="_blank" href="#">Resume</a>
+                                <a class="nav-link" target="_blank" href="https://drive.google.com/file/d/1OlzkqairY5X3qT3L4HuozfUqm9rWHyIv/view?usp=sharing">Resume</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" target="_blank" rel="noopener noreferrer" href="https://github.com/damildrizzy">Github</a>

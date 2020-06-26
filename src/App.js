@@ -20,13 +20,11 @@ class App extends Component{
     return (
       <div>
         <Nav/>
-        <div className="container wrapper">
-          <Header/>
-          <About/>
-          <Project jobs = {jobs}/>
-          <Footer/>
+        <Header/>
+        <About/>
+        <Project jobs = {jobs}/>
+        <Footer/>
         
-        </div>
         
       </div>
     );

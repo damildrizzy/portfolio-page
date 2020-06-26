@@ -1,4 +1,5 @@
 
+
 body {
   line-height: 26px;
   font-size: 15px;
@@ -66,23 +67,8 @@ p{
 	text-align: center;
 }
 
-/*Social Media Icons*/
-.social-wrapper {
-	text-align: center;
-}
 
-.social-wrapper ul li {
-	display: inline;
-	margin: 0 10px;
-}
 
-i {
-	margin-top: .625em;
-	opacity: .6;
-	filter: alpha(opacity=60); /* For IE8 and earlier */
-  border-radius: 25px;
-  
-}
 
 .nav-link{
   font-size: 20px;
@@ -95,9 +81,55 @@ i {
 
 }
 
+@import url(https://fonts.googleapis.com/css?family=Piedra:regular);
 .card{
   width: 18rem;
-  background-color: rgb(11, 3, 15);
+  background-color: rgb(255, 255, 255);
+  color: rgb(7, 0, 14);
+}
+
+.card-subtitle{
+  font-family: Piedra;
+}
+
+.site-footer hr{
+  border-top-color:#bbb;
+  opacity:0.5;
+}
+
+.site-footer h6
+{
+  color: grey;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+
+.site-footer a, .copyright-text
+{
+  color:#737373;
+}
+
+.site-footer .social-icons
+{
+  text-align:right;
+  list-style: none;
+}
+
+
+.site-footer
+{
+  background-color:rgb(7, 0, 14);
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:  white;
+}
+
+.site-footer li{
+  display: inline-block;
+  margin: 0px 10px;
 }
 
 
