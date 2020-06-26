@@ -47,16 +47,17 @@ p{
 }
 
 
-.django, .flask{
+.django, .flask, .express, .drf, .sql{
   height: 96px;
 }
 
-.flask{
+.flask, .sql, .drf{
   filter: invert(100%);
 }
 
-.type{
-  color: grey;
+
+.logo{
+  filter: invert(100%);
 }
 
 
@@ -81,6 +82,22 @@ i {
 	filter: alpha(opacity=60); /* For IE8 and earlier */
   border-radius: 25px;
   
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+.profile-img{
+  border: 5px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+
+}
+
+.card{
+  width: 18rem;
+  background-color: rgb(11, 3, 15);
 }
 
 

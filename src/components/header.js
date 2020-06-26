@@ -1,28 +1,26 @@
 import React, {Component} from 'react';
-import illustration from '../img/coding.png';
+import me from '../img/samuel.JPG';
 
 class Header extends Component{
     render(){
         return(
             <div>
-            <section className="home_banner_area py-5">
+            <section className="home_banner_area pb-5">
                 <div className="banner-inner">
-                    <div className="container">
+                    <div className="container py-5">
+                        
                         <div className="row">
                             <div className="col-lg-7">
-                                <div className="banner-content py-5">
+                                <div className="banner-content">
                                     
-                                    <h1 className="pt-5 display-4">Hi. I'm <span> Dami.</span></h1>
-                                    <h4 className="">Web Developer</h4>
-                                    <div className="align-items-center py-3">
-                                        <a className="btn btn-primary btn-lg" href="https://drive.google.com/open?id=1KNilXHSa3VkRC5G-K9KVXAgsXsuparQ4" target="_blank" rel="noopener noreferrer"><span> Download CV</span></a>
-                                        
-                                    </div>
+                                    <h1 className="pt-5 display-4">Hi, I'm <span> Samuel.</span></h1>
+                                    <h4 className="">Software Engineer with two years of experience 
+                                                    building software solutions that work. A Creative thinker and enthusiastic problem solver </h4>
                                 </div>
                             </div>
                             <div className="col-lg-5">
                                 <div className="home_right_img py-5">
-                                    <img className="img-fluid" src={illustration} alt="coder"/>
+                                    <img className="img-fluid profile-img" src={me} alt="coder"/>
                                     
                                 </div>
                             </div>
