@@ -5,6 +5,7 @@ import chat from "../img/jobs/chat.png";
 import covid from "../img/jobs/covid.png";
 import bot from "../img/jobs/bot.png";
 import portfolio from "../img/jobs/portfolio.png";
+import excursion from "../img/jobs/excursion.png";
 
 
 const jobs = [
@@ -74,6 +75,16 @@ const jobs = [
         'tech': 'Vanilla Javascript',
         'url': 'https://github.com/damildrizzy/cryptonews',
         'image': crypto
+
+    },
+    {
+        'id':8,
+        'name': 'Excursions API',
+        'type': 'API',
+        'description': 'An API resource for vacation destinations',
+        'tech': 'Python, Django, DRF',
+        'url': 'https://github.com/damildrizzy/excursions-api',
+        'image': excursion
 
     }
 
